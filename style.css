@@ -1,0 +1,88 @@
+body{
+    background-image: url(./Images/background.jpg);
+    background-blend-mode: darken;
+    background-color: rgba(0, 0, 0, 0.4);
+    background-size: 100% 100vh;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: white;
+    justify-content: center;
+}
+
+.container{
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.1);
+    padding-top: 0.1rem;
+    padding-bottom: 0.1rem;
+    margin-top: 1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    
+}
+
+.top{
+    margin-top: 4rem;
+    font-weight: bold;
+    color: #360033;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.year{
+    margin-top: -4rem;
+    font-size: 400%;
+    background: linear-gradient(#8e0e00 , #1f1c18);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    margin-top: -6rem;
+}
+
+.box div{
+    background-color: rgb(255, 255, 255, 0.1);
+    backdrop-filter: blur(12px);
+    border-radius: 5px;
+    width: 8rem;
+}
+
+.box h1{
+    font-size: 400%;
+    margin-bottom: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(#83a4d4, #b6fbff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.box h2{
+    background-color: rgba(158, 158, 158, 0.3);
+    backdrop-filter: blur(12px);
+    margin: 1rem;
+    border-radius: 5px;
+    margin-bottom: 0%;
+    color: black;
+}
+
+.effect{
+    margin-top: 3rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    font-style: italic;
+    font-size: large;
+    background: linear-gradient(#abbaab, #ffffff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.creater{
+    margin-top: -1rem;
+    font-size: 150%;
+    font-family: cursive;
+    background: linear-gradient(#948e99, #0b8793);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
